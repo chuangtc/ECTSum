@@ -15,10 +15,13 @@ Codes and instructions for our baseline models can be found under `codes/baselin
 ## Data Preparation for ECT-BPS
 ### Preparing the data for training the <i> Extractive Module </i>
 
-#### Imports
-`pip install sentence-transformers` </br>
-`pip install num2words` </br>
-`pip install word2number` </br>
+#### Imports on Mac
+`pip install sentence-transformers` <br/>
+`pip install num2words` <br/>
+`pip install word2number` <br/>
+`pip install nltk` <br/>
+`pip install numpy` <br/>
+
 
 #### Prepare the data
 `python prepare_data_ectbps_ext.py`
