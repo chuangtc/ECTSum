@@ -43,7 +43,7 @@ pip install word2number
 
 
 #### Prepare the data
-`python prepare_data_gpt2.py`
+`python prepare_data_gpt3.py`
 
 #### Data Location
 The data is saved at `out-data/`. </br>
