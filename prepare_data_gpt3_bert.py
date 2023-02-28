@@ -139,4 +139,4 @@ def prepare_data(dataPath, out_path, split):
 
 for split in ['train', 'val', 'test']:
 	print(f'\n\n Preparing {split} data..\n')
-	prepare_data(f'data/final/{split}', f'out-data/', split)
+	prepare_data(f'data/final/{split}', f'data-bert/', split)
