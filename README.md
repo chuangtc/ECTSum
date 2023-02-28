@@ -52,4 +52,4 @@ Processed data should be at this location.
 ## Updates
 <li> 1st November 2022 - ECTSum Dataset released </li>
 <li> 30th November 2022 - Codes and Instructions released for training the Extractive Module of ECT-BPS
-<li> 28th Feburary - Dataset for GPT-3 created</li>
+<li> 28th Feburary 2023 - Dataset for GPT-3 created</li>
