@@ -15,7 +15,7 @@ Codes and instructions for our baseline models can be found under `codes/baselin
 ## Data Preparation for ECT-BPS
 ### Preparing the data for training the <i> Extractive Module </i>
 
-### Set up Python 3.9 on Mac M1
+### Set up Python 3.9, Pytorch on Mac M1
 ```bash
 brew install pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -33,7 +33,13 @@ pyenv which python
 pip install torch torchvision torchaudio
 ```
 
-#### Install libraries on Mac
+### Set up Pytorch on Windows
+```bash
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+```
+
+
+### Install libraries on Mac and Windows
 ```bash
 pip install sentence-transformers
 pip install num2words
